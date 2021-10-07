@@ -213,7 +213,7 @@ router.get('/wallet', function(req, res, next) {
   let tokenIds = [];
   let punks = null;
   if (isAddress) {
-    let url = 'https://api.opensea.io/api/v1/assets?asset_contract_address=0xf2febe0fc74ebea939240851686d5b5455d200ab&format=json&limit=500&offset=0&order_direction=desc&owner='+search+'';
+    let url = 'https://api.opensea.io/api/v1/assets?asset_contract_address=0xf2febe0fc74ebea939240851686d5b5455d200ab&format=json&limit=50&offset=0&order_direction=desc&owner='+search+'';
     // let url = 'https://api.punkscape.xyz/address/'+search+'/punkscapes';
     let result = request('GET', url);
     let data = result.getBody('utf8');

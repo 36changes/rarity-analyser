@@ -217,7 +217,10 @@ router.get('/wallet', function(req, res, next) {
     // let url = 'https://api.punkscape.xyz/address/'+search+'/punkscapes';
     let result = request('GET', url);
     let data = result.getBody('utf8');
+    console.log(data);
     data = JSON.parse(data);
+    data = jsonObj.getJSONArray("assets");
+    console.log(data);
     data.forEach(element => {
       tokenIds.push(element.token_id);
     });

@@ -217,11 +217,11 @@ router.get('/wallet', function(req, res, next) {
     // let url = 'https://api.punkscape.xyz/address/'+search+'/punkscapes';
     let result = request('GET', url);
     let data = result.getBody('utf8');
-    console.log(data);
+    //console.log(data);
     data = JSON.parse(data);
-    data = data.getJSONArray("assets");
-    console.log(data);
-    data.forEach(element => {
+    //data = data.getJSONArray("assets");
+    //console.log(data);
+    data.assets.forEach(element => {
       tokenIds.push(element.token_id);
     });
     if (tokenIds.length > 0) {

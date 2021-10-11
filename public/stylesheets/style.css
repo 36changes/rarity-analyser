@@ -78,7 +78,11 @@ body {
 }
 
 .bg-dark {
- background-color: var(--primary-dark); 
+ background-color: var(--primary-dark) !important; 
+}
+
+.page-link {
+ background-color: #10364c !important;
 }
 
 /*

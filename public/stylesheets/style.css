@@ -92,6 +92,10 @@ body {
     background-color: var(--primary) !important; 
 }
 
+.tile {
+ overflow: auto !important;
+}
+
 /*
  * Header
  */

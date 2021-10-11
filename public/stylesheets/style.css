@@ -96,6 +96,16 @@ body {
  overflow: auto !important;
 }
 
+.px-3.d-flex:nth-of-type(8) {
+  display: none;
+}
+.px-3.d-flex:nth-of-type(11) {
+  display: none;
+}
+.px-3.d-flex:nth-of-type(12) {
+  display: none;
+}
+
 /*
  * Header
  */

@@ -81,7 +81,7 @@ body {
  background-color: #195477 !important; 
 }
 
-.page-link {
+.page-link, .search .search-text-input {
  background-color: #10364c !important; 
 }
 

@@ -99,19 +99,19 @@ body {
 .px-3 h3:nth-of-type(8) {
   display: none;
 }
-.px-3.d-flex:nth-of-type(8) {
+.px-3 div:nth-of-type(8) {
   display: none;
 }
 .px-3 h3:nth-of-type(11) {
   display: none;
 }
-.px-3.d-flex:nth-of-type(11) {
+.px-3 div:nth-of-type(11) {
   display: none;
 }
 .px-3 h3:nth-of-type(12) {
   display: none;
 }
-.px-3.d-flex:nth-of-type(12) {
+.px-3 div:nth-of-type(12) {
   display: none;
 }
 

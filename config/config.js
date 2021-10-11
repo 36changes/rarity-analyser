@@ -6,7 +6,7 @@ const config = {
     collection_name: 'PunkBabies',
     collection_description: 'PunkBabies are the illegitimate offspring of the OG Punks.',
     collection_id_from: 1,
-    ignore_traits: [], 
+    ignore_traits: [Father,Mother], 
     sqlite_file_name: 'database.sqlite',
     ga: '',
     main_og_image: 'https://punks.baby/wp-content/uploads/2021/07/punkbabies-logo.png',

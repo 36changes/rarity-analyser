@@ -17,7 +17,7 @@
   --gray: var(--gray-400);
   --black: #000000;
   --primary: #FF04B4;
-  --primary-dark: #195477;
+  --primary-dark: #10364c;
   --contrast: #0062F9;
   --danger: #EF4444;
   --red: #F87171;
@@ -78,7 +78,7 @@ body {
 }
 
 .bg-dark {
- background-color: var(--primary-dark) !important; 
+ background-color: #195477 !important; 
 }
 
 .page-link {

@@ -9,7 +9,7 @@ const config = {
     ignore_traits: ['father','mother','shirt color rgb'], 
     sqlite_file_name: 'database.sqlite',
     ga: '',
-    main_og_image: 'https://punks.baby/wp-content/uploads/2021/07/punkbabies-logo.png',
+    main_og_image: 'https://punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo.png',
     item_path_name: 'punk',
     page_item_num: 60,
     content_image_is_video: false,

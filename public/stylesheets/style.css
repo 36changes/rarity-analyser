@@ -82,7 +82,14 @@ body {
 }
 
 .page-link {
- background-color: #10364c;
+ background-color: #10364c !important; 
+}
+
+.page-item.active .page-link {
+    background-color: #0d6efd !important; 
+}
+.page-link:hover, .page-link:focus {
+    background-color: var(--primary) !important; 
 }
 
 /*

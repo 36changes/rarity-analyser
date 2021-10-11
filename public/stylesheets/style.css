@@ -105,13 +105,13 @@ body {
 .px-3 h3:nth-of-type(11) {
   display: none;
 }
-.px-3 div:nth-of-type(11) {
+.px-3:nth-child(26) {
   display: none;
 }
 .px-3 h3:nth-of-type(12) {
   display: none;
 }
-.px-3 div:nth-of-type(12) {
+.px-3:nth-child(28) {
   display: none;
 }
 

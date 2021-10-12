@@ -172,7 +172,7 @@ body {
 }
 
 .upper {
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 
 .superbig {

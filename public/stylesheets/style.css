@@ -365,8 +365,8 @@ a:hover .punk-info svg:not(.shadow) {
 
 .punk-similar-score {
   color: var(--white); 
-  font-family: var(--font-family-title);
-  font-weight: 700;
+  /*font-family: var(--font-family-title);*/
+  font-weight: 500;
   font-size: var(--font-size-md);
 }
 

@@ -308,8 +308,8 @@ body {
 
 .punk-info {
   position: relative;
-  font-family: var(--font-family-title);
-  font-weight: 700;
+  /*font-family: var(--font-family-title);*/
+  font-weight: 500;
 }
 
 .punk-info svg {
@@ -358,8 +358,8 @@ a:hover .punk-info svg:not(.shadow) {
 
 .punk-rank {
   color: var(--white); 
-  font-family: var(--font-family-title);
-  font-weight: 700;
+  /*font-family: var(--font-family-title);*/
+  font-weight: 500;
   font-size: var(--font-size-lg);
 }
 

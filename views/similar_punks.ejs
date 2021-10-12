@@ -20,11 +20,19 @@
         <div style="max-width: 42rem; margin-left: auto; margin-right: auto;">
           <div class="row">
           <% if (!_.isEmpty(punk)) { %>
+          <h1 class="superbig upper text-center"><img src="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" alt="PunkBabies" class="tp-rs-img rs-lazyload" width="768" height="288" data-lazyload="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" data-no-retina="" data-reference="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" data-src-rs-ref="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" style="width: 70%; position: relative; height: 100%;">
+       </h1>
+       <div class="row">
+       <div class="col-md-6">
             <h1 class="heading upper text-center">Similar to</h1>
+            </div>
+            <div class="col-md-6">
             <div class="d-flex justify-content-center">
               <div class="col-lg-3 col-md-4 col-sm-6 col-6" style="padding-left: 30px; padding-right: 30px;">
                 <%- include('./component/punk', {punk: punk}); -%>
               </div>
+            </div>
+            </div>
             </div>
             <hr class="mt-5 mb-5">
             <% similarPunks.forEach(function(similarPunk) { %>
@@ -33,6 +41,8 @@
               </div>
             <% }); %>
           <% } else { %>
+          <h1 class="superbig upper text-center"><img src="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" alt="PunkBabies" class="tp-rs-img rs-lazyload" width="768" height="288" data-lazyload="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" data-no-retina="" data-reference="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" data-src-rs-ref="//punks.baby/wp-content/uploads/2021/10/PunkBabies_Logo-768x288.png" style="width: 70%; position: relative; height: 100%;">
+       </h1>
             <h1 class="text-center" style="margin-top: 5rem;">
               There's no result.
             </h1>

@@ -99,20 +99,20 @@ body {
 .px-3 h3:nth-of-type(8) {
   display: none;
 }
-.px-3:nth-child(8 of .d-flex) {
-  display: none;
+.px-3:nth-child(8 of .justify-content-center) {
+  display: none !important;
 }
 .px-3 h3:nth-of-type(11) {
   display: none;
 }
-.px-3:nth-child(11 of .d-flex) {
-  display: none;
+.px-3:nth-child(11 of .justify-content-center) {
+  display: none !important;
 }
 .px-3 h3:nth-of-type(12) {
   display: none;
 }
-.px-3:nth-child(12 of .d-flex) {
-  display: none;
+.px-3:nth-child(12 of .justify-content-center) {
+  display: none !important;
 }
 
 /*

@@ -481,7 +481,7 @@ a:hover .punk-info svg:not(.shadow) {
 }
 
 .tile h5, .tile h4 {
-  font-family: var(--font-family-title);
+  /*font-family: var(--font-family-title);*/
   text-align: center;
 }
 

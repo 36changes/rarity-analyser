@@ -99,19 +99,19 @@ body {
 .px-3 h3:nth-of-type(8) {
   display: none;
 }
-.px-3:nth-child(8 of .justify-content-center) {
+.px-3:nth-child(19) {
   display: none !important;
 }
 .px-3 h3:nth-of-type(11) {
   display: none;
 }
-.px-3:nth-child(11 of .justify-content-center) {
+.px-3:nth-child(25) {
   display: none !important;
 }
 .px-3 h3:nth-of-type(12) {
   display: none;
 }
-.px-3:nth-child(12 of .justify-content-center) {
+.px-3:nth-child(27) {
   display: none !important;
 }
 

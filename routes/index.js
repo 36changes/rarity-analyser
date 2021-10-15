@@ -35,9 +35,9 @@ router.get('/', function(req, res, next) {
   if (_.isEmpty(traits)) {
     traits = '';
   }
-  var regexp = new RegExp('#([^\\s]*)','g');
-  traits = traits.replace(regexp, '');
-  //traits = traits.replace(/\b\#\w+/g, ''); 
+  //var regexp = new RegExp('#([^\\s]*)','g');
+  //traits = traits.replace(regexp, '');
+  traits = traits.replace(/\b\#\w+/g, ''); 
   let scoreTable = 'punk_scores';
   if (useTraitNormalization == '1') {
     useTraitNormalization = '1';

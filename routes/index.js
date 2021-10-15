@@ -62,6 +62,7 @@ router.get('/', function(req, res, next) {
   }
 
   let selectedTraits = (traits != '') ? traits.split(',') : [];
+  let selectedTraits = selectedTraits.replace(/\b\#\w+/g, ''); 
   let totalPunkCount = 0
   let punks = null;
   let orderByStmt = '';
